@@ -15,7 +15,7 @@ import java.util.Locale;
 public class Program {
 
 	public static void main(String[] args) throws IOException {
-		OutputStream os = new FileOutputStream("D:/Development/Cedro/Pasta1.txt");
+		OutputStream os = new FileOutputStream("C:/Temp/Pasta1.txt");
 		OutputStreamWriter osw = new OutputStreamWriter(os);
 		BufferedWriter bw = new BufferedWriter(osw);
 		Locale.setDefault(new Locale("en", "US"));
